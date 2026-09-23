@@ -1,0 +1,9 @@
+node_modules/
+node_modules_incomplete/
+.validation/
+*.incomplete.json
+*.incomplete.yaml
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
