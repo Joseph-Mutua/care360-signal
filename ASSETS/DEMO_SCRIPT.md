@@ -2,7 +2,7 @@
 
 **0:00–0:30 — Problem.** Open the operations view. Explain that raw caregiver WhatsApp messages bury missing slots and abnormal readings. The application generates expected slots independently of arrived messages.
 
-**0:30–1:00 — Intake.** Point to the local-processing notice. Drop `Sample_Homecare_WhatsApp_Export.txt` or use **Load sample**. Explain that a new `.txt` export follows the same parser, and no patient file is uploaded.
+**0:30–1:00 — Intake.** Point to the local-processing notice. Drop `ASSETS/Sample_Homecare_WhatsApp_Export.txt` or use **Load sample**. Explain that a new `.txt` export follows the same parser, and no patient file is uploaded.
 
 **1:00–1:45 — Two-minute view.** Show the five defined KPIs and priority queue. State active expected, unique received, missing and late totals. Open an info tooltip to show the denominator.
 

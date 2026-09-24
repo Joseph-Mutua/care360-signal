@@ -71,7 +71,7 @@ describe('clinical and timing rules', () => {
 });
 
 describe('supplied export regression', () => {
-  const data = readFileSync('Sample_Homecare_WhatsApp_Export.txt', 'utf8');
+  const data = readFileSync('ASSETS/Sample_Homecare_WhatsApp_Export.txt', 'utf8');
   const result = analyze(data);
   it('derives the scheduled totals, not sample constants', () => {
     expect(result.slots.filter(s => !s.paused)).toHaveLength(478);
