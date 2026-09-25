@@ -5,7 +5,7 @@ import { analyze } from '../../domain/analyze';
 import { PrintButton } from '../../components/print-button';
 
 export default function AnalysisPage() {
-  const result = analyze(readFileSync(path.join(process.cwd(), 'ASSETS', 'Sample_Homecare_WhatsApp_Export.txt'), 'utf8'));
+  const result = analyze(readFileSync(path.join(process.cwd(), 'public', 'sample.txt'), 'utf8'));
   const active = result.slots.filter(s => !s.paused).length;
   const complete = result.reports.filter(r => r.slotId && result.slots.find(s => s.id === r.slotId)?.reportId === r.id && r.complete).length;
   const abnormal = result.reports.filter(r => r.slotId && !r.duplicateOf && r.abnormal.length);

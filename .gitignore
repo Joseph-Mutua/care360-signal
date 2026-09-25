@@ -7,3 +7,5 @@ node_modules_incomplete/
 out/
 *.tsbuildinfo
 next-env.d.ts
+/ASSETS/
+/DOCS/
